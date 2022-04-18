@@ -88,6 +88,6 @@ def get_photo_path(keys):
                 key = val['_source']['objectKey']
                 if key not in output:
                     output.append('https://photoscc22.s3.amazonaws.com/'+key)
-    print ("MAI YAHA HOON",output)
+    print ("Changing my search",output)
     return output
     
